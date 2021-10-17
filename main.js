@@ -445,8 +445,8 @@ const employees = [
             </div>
         </div>
     </div>`;
-    const currentHTML = document.getElementById("ResultsContainer").innerHTML;
+    const currentHTML = document.getElementById("results").innerHTML;
     const newHTML = currentHTML + template;
-    document.getElementById("ResultsContainer").innerHTML = newHTML;
+    document.getElementById("results").innerHTML = newHTML;
   });
 })();
